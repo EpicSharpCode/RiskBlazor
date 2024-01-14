@@ -1,0 +1,89 @@
+*[b-n2v3i9txno], *[b-n2v3i9txno]:before, *[b-n2v3i9txno]:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body[b-n2v3i9txno] {
+    background: #105469;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table[b-n2v3i9txno] {
+    background: #ffffff;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: 1px;
+    outline: 1px solid #b7b7b7;
+}
+
+th[b-n2v3i9txno] {
+    border-bottom: 1px solid #b7b7b7;
+    border-right: 2px dashed #d2d2d2;
+    background: #efefef;
+    border-radius: 10px 10px 0px 0px;
+    color: #364043;
+    font-weight: 600;
+    padding: 1em 0.5em;
+    text-align: left;
+}
+
+    th.symbol[b-n2v3i9txno] {
+        border-right: 1px solid #b7b7b7;
+        width: 130px;
+    }
+
+    th.last[b-n2v3i9txno] {
+        border-right: none;
+    }
+
+a[b-n2v3i9txno] {
+    text-decoration: none;
+}
+
+td[b-n2v3i9txno] {
+    color: #364043;
+    font-weight: 400;
+    padding: 0.65em 0.5em;
+    vertical-align: central;
+    text-align: left;
+}
+
+    td.symbol[b-n2v3i9txno] {
+        border-right: 1px solid #b7b7b7;
+    }
+
+    td.bold[b-n2v3i9txno] {
+        font-weight: 600;
+    }
+
+.disabled td[b-n2v3i9txno] {
+    color: #4F5F64;
+}
+
+tbody tr[b-n2v3i9txno] {
+    transition: background 0.25s ease;
+}
+
+tr:nth-child(even)[b-n2v3i9txno] {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover[b-n2v3i9txno] {
+    background: #e9fdfd;
+}
+
+td.achieve[b-n2v3i9txno] {
+    color: #47cb32;
+}
+
+td.waste[b-n2v3i9txno] {
+    color: #e32222;
+}
+
+
+input.largerCheckbox[b-n2v3i9txno] {
+    width: 20px;
+    height: 20px;
+    transform: translate(0px, 4px)
+}

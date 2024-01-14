@@ -1,0 +1,52 @@
+﻿@inject IDataProvider dataService;
+
+<table>
+    <thead>
+        <tr>
+            <th class="symbol">Symbol</th>
+            <th>Price</th>
+            <th>Chg %</th>
+            <th>Volume</th>
+            <th>Afterhr. Price</th>
+            <th>Afterhr. % Change</th>
+            <th>Market Cap</th>
+            <th>PE Ratio</th>
+            <th>Earnings Date</th>
+            <th>% Chg 52w Low</th>
+            <th class="last">% Chg 52w High</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (generals != null)
+        {
+            @foreach (var general in generals)
+            {
+                <tr>
+                    <td class="symbol"><input type="checkbox" class="largerCheckbox"> <a href="/#">@general.Symbol</a></td>
+                    <td class="bold">@general.Price</td>
+                    <td class="@general.Chg.GetClassAnalogName()">@general.Chg</td>
+                    <td>@general.Volume</td>
+                    <td class="bold">@general.AfterhrPrice</td>
+                    <td class="@general.AfterhrChange.GetClassAnalogName()">@general.AfterhrChange</td>
+                    <td>@general.MarketCap</td>
+                    <td>@general.PERatio</td>
+                    <td>@general.EarningsDate</td>
+                    <td class="@general.Chg52wLow.GetClassAnalogName()">@general.Chg52wLow</td>
+                    <td class="@general.Chg52wHigh.GetClassAnalogName()">@general.Chg52wHigh</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<General> generals;
+
+    protected async override Task OnInitializedAsync()
+    {
+        if (generals == null)
+        {
+            generals = await dataService.GetGeneral();
+        }
+    }
+}

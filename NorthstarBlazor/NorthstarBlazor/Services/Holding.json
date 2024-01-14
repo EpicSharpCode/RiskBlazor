@@ -1,0 +1,42 @@
+[
+  {
+    "Symbol": "TSLA",
+    "Price": "238",
+    "Chg ": "0"
+  },
+  {
+    "Symbol": "MSFT",
+    "Price": "368",
+    "Chg ": "-1"
+  },
+  {
+    "Symbol": "MCD",
+    "Price": "292",
+    "Chg ": "-1"
+  },
+  {
+    "Symbol": "IBM",
+    "Price": "161",
+    "Chg ": "+0.47"
+  },
+  {
+    "Symbol": "FORD",
+    "Price": 0.74,
+    "Chg ": "+3.65"
+  },
+  {
+    "Symbol": "DELL",
+    "Price": "76",
+    "Chg ": "-1"
+  },
+  {
+    "Symbol": "C",
+    "Price": "54",
+    "Chg ": "+0.24"
+  },
+  {
+    "Symbol": "AAPL",
+    "Price": "182",
+    "Chg ": "-1"
+  }
+]

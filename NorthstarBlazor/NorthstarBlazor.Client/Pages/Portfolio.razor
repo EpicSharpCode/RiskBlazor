@@ -1,0 +1,43 @@
+﻿@page "/portfolio"
+@inject NavigationManager navigationManager
+
+<PageTitle>Portfolio</PageTitle>
+
+<h1>Portfolio</h1>
+
+@switch (panelIndex)
+{
+    case 0:
+        {
+            <GeneralTable />
+            break;
+        }
+    case 1:
+        {
+            <HoldingsTable />
+            break;
+        }
+}
+
+@panelIndex
+
+<button class="btn btn-primary" @onclick="@NextTableIndex">Click me</button>
+
+@code {
+
+    public static int panelIndex { get; set; }
+    const int tableCount = 2;
+
+    public static int PanelIndex => panelIndex;
+
+    public static void ShowPanel(int index)
+    {
+        if (index >= tableCount || index < 0) index = 0;
+        panelIndex = index;
+    }
+    public void NextTableIndex() { 
+        ShowPanel(PanelIndex + 1);
+        
+    }
+}
+

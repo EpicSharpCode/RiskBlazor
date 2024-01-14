@@ -1,0 +1,89 @@
+﻿*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #105469;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    background: #ffffff;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: 1px;
+    outline: 1px solid #b7b7b7;
+}
+
+th {
+    border-bottom: 1px solid #b7b7b7;
+    border-right: 2px dashed #d2d2d2;
+    background: #efefef;
+    border-radius: 10px 10px 0px 0px;
+    color: #364043;
+    font-weight: 600;
+    padding: 1em 0.5em;
+    text-align: left;
+}
+
+    th.symbol {
+        border-right: 1px solid #b7b7b7;
+        width: 130px;
+    }
+
+    th.last {
+        border-right: none;
+    }
+
+a {
+    text-decoration: none;
+}
+
+td {
+    color: #364043;
+    font-weight: 400;
+    padding: 0.65em 0.5em;
+    vertical-align: central;
+    text-align: left;
+}
+
+    td.symbol {
+        border-right: 1px solid #b7b7b7;
+    }
+
+    td.bold {
+        font-weight: 600;
+    }
+
+.disabled td {
+    color: #4F5F64;
+}
+
+tbody tr {
+    transition: background 0.25s ease;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background: #e9fdfd;
+}
+
+td.achieve {
+    color: #47cb32;
+}
+
+td.waste {
+    color: #e32222;
+}
+
+
+input.largerCheckbox {
+    width: 20px;
+    height: 20px;
+    transform: translate(0px, 4px)
+}

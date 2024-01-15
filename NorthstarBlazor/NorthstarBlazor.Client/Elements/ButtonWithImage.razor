@@ -1,5 +1,7 @@
-﻿<button><img src="pencil.png"> Add</button>
+﻿<button class="@ButtonClass"><img src="@ImageURL" width="15" height="15" class="littleup">@Text</button>
 
 @code {
-
+    [Parameter] public string ButtonClass { get; set; }
+    [Parameter] public string ImageURL { get; set; }
+    [Parameter] public string Text { get; set; }
 }

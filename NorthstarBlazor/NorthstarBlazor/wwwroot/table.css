@@ -1,19 +1,4 @@
-﻿*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-div.loading {
-    display: block;
-    text-align: left;
-    font-weight: 600;
-}
-
-body {
-    background: #105469;
-    font-family: 'Open Sans', sans-serif;
-}
+﻿
 
 table {
     background: #ffffff;
@@ -34,14 +19,14 @@ th {
     text-align: left;
 }
 
-    th.symbol {
-        border-right: 1px solid #b7b7b7;
-        width: 130px;
-    }
+th.symbol {
+    border-right: 1px solid #b7b7b7;
+    width: 130px;
+}
 
-    th.last {
-        border-right: none;
-    }
+th.last {
+    border-right: none;
+}
 
 a {
     text-decoration: none;
@@ -55,13 +40,13 @@ td {
     text-align: left;
 }
 
-    td.symbol {
-        border-right: 1px solid #b7b7b7;
-    }
+td.symbol {
+    border-right: 1px solid #b7b7b7;
+}
 
-    td.bold {
-        font-weight: 600;
-    }
+td.bold {
+    font-weight: 600;
+}
 
 .disabled td {
     color: #4F5F64;
@@ -76,7 +61,7 @@ tr:nth-child(even) {
 }
 
 tbody tr:hover {
-    background: #e9fdfd;
+    background: #357ae459;
 }
 
 td.achieve {
@@ -92,4 +77,10 @@ input.largerCheckbox {
     width: 20px;
     height: 20px;
     transform: translate(0px, 4px)
+}
+
+div.loading {
+    display: block;
+    text-align: left;
+    font-weight: 600;
 }

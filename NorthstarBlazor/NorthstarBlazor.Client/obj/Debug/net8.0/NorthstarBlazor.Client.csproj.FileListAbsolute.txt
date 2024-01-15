@@ -855,7 +855,6 @@ D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NorthstarBlazor.Client.props
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NorthstarBlazor.Client.props
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\staticwebassets.pack.json
-D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\GeneralTable.razor.rz.scp.css
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\bundle\NorthstarBlazor.Client.styles.css
@@ -1079,7 +1078,5 @@ D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\refint\NorthstarBlazor.Client.dll
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\NorthstarBlazor.Client.pdb
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\ref\NorthstarBlazor.Client.dll
-D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\HoldingsTable.razor.rz.scp.css
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\NorthstarBlazor.Client.sourcelink.json
-D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Pages\Portfolio.razor.rz.scp.css
-D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\ButtonWithImage.razor.rz.scp.css
+D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\TableContainer.razor.rz.scp.css

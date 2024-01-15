@@ -1,0 +1,10 @@
+﻿
+
+div.div-sticky {
+    display: flex;
+}
+
+.parent > div {
+    display: inline-block;
+}
+

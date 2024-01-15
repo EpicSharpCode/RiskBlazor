@@ -22,12 +22,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/ButtonWithImage.razor]
+build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcQnV0dG9uV2l0aEltYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/GeneralTable.razor]
+build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcR2VuZXJhbFRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/HoldingsTable.razor]
+build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcSG9sZGluZ3NUYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Pages/Portfolio.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Pages/Weather.razor]
@@ -42,17 +58,9 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/ButtonWithImage.razor]
-build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcQnV0dG9uV2l0aEltYWdlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-x0jkv9uw5p
-
-[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/GeneralTable.razor]
-build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcR2VuZXJhbFRhYmxlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-n2v3i9txno
-
-[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/HoldingsTable.razor]
-build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcSG9sZGluZ3NUYWJsZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-4lfsrfqy1f
+[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/TableContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcVGFibGVDb250YWluZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7tja4cgd6p
 
 [D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
@@ -61,7 +69,3 @@ build_metadata.AdditionalFiles.CssScope = b-y1xdj7e8ff
 [D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-r8mht1slul
-
-[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Pages/Portfolio.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-7ote2ni0sg

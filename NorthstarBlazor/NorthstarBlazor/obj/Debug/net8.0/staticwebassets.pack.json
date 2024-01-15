@@ -13,12 +13,32 @@
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\buttons.css",
+      "PackagePath": "staticwebassets\\buttons.css"
+    },
+    {
       "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\pencil.png",
-      "PackagePath": "staticwebassets\\pencil.png"
+      "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\images\\northstar.png",
+      "PackagePath": "staticwebassets\\images\\northstar.png"
+    },
+    {
+      "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\images\\pencil.png",
+      "PackagePath": "staticwebassets\\images\\pencil.png"
+    },
+    {
+      "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\images\\plus.png",
+      "PackagePath": "staticwebassets\\images\\plus.png"
+    },
+    {
+      "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\images\\sidebar-background.png",
+      "PackagePath": "staticwebassets\\images\\sidebar-background.png"
+    },
+    {
+      "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\table.css",
+      "PackagePath": "staticwebassets\\table.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NorthstarBlazor.Microsoft.AspNetCore.StaticWebAssets.props",

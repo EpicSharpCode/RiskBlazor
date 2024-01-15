@@ -1,0 +1,46 @@
+﻿/*Navigation Buttons*/
+.button-nav {
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid #2f4970;
+    border-radius: 0px 0px 0px 0px;
+    padding: 4px 10px 4px 10px;
+}
+
+    .button-nav.first {
+        border-radius: 10px 0px 0px 0px;
+    }
+
+    .button-nav.button-nav.last {
+        border-radius: 0px 10px 0px 0px;
+    }
+
+
+.button-nav:focus, .button-nav:active:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.button-nav:hover {
+    background-color: #e7e7e7;
+    font-weight: 600;
+}
+
+/*Empty Buttons*/
+.button-empty {
+    background-color: #00000000;
+    color: black;
+    border-bottom: 0px;
+    border-radius: 10px;
+}
+
+.button-empty:focus, .button-empty:active:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.button-empty:hover {
+    background-color: #d8e8ff;
+}
+
+.littleup {
+    transform: translate(0px, -2px);
+}

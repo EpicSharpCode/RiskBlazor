@@ -1,5 +1,11 @@
 ﻿@inject IDataProvider dataService;
 
+@if (generals == null)
+{
+    <div class="loading">Loading Generals table...</div>
+} 
+else 
+{
 <table>
     <thead>
         <tr>
@@ -38,6 +44,7 @@
         }
     </tbody>
 </table>
+}
 
 @code {
     private List<General> generals;

@@ -7,6 +7,6 @@ public class Holding
     public string Symbol { get; set; }
     public object Price { get; set; }
 
-    [JsonProperty("Chg %")]
+    [JsonProperty("Chg ")]
     public string Chg { get; set; }
 }

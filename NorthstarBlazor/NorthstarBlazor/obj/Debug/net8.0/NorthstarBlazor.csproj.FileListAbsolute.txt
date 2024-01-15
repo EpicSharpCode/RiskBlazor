@@ -55,3 +55,4 @@ D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor\obj\Debug\net8.0\ref
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor\obj\Debug\net8.0\NorthstarBlazor.pdb
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor\obj\Debug\net8.0\NorthstarBlazor.genruntimeconfig.cache
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor\obj\Debug\net8.0\ref\NorthstarBlazor.dll
+D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor\obj\Debug\net8.0\NorthstarBlazor.sourcelink.json

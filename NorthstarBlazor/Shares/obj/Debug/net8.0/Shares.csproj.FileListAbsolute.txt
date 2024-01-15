@@ -23,3 +23,4 @@ D:\TestTask\NorthstarBlazor\NorthstarBlazor\Shares\obj\Debug\net8.0\Shares.dll
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\Shares\obj\Debug\net8.0\refint\Shares.dll
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\Shares\obj\Debug\net8.0\Shares.pdb
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\Shares\obj\Debug\net8.0\ref\Shares.dll
+D:\TestTask\NorthstarBlazor\NorthstarBlazor\Shares\obj\Debug\net8.0\Shares.sourcelink.json

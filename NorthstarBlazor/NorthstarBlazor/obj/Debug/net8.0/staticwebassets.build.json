@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tZOPNqUZNO3JLCWS0mWvPcY0XSf8Vu35KdKYxpoMKVU=",
+  "Hash": "tj4zDuRwE6Xx1tdH5z/j/4V1XMO4xWrw/Y5KKad3qXg=",
   "Source": "NorthstarBlazor",
   "BasePath": "_content/NorthstarBlazor",
   "Mode": "Default",
@@ -8318,6 +8318,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\pencil.png",
+      "SourceId": "NorthstarBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\",
+      "BasePath": "_content/NorthstarBlazor",
+      "RelativePath": "pencil.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pencil.png"
     }
   ]
 }

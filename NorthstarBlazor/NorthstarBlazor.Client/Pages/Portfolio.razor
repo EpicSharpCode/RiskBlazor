@@ -3,7 +3,18 @@
 
 <PageTitle>Portfolio</PageTitle>
 
-<h1>Portfolio</h1>
+<div class="div-sticky">
+    <button class="btn button-nav first" @onclick="ShowGeneralTable">General</button>
+    <button class="btn button-nav" @onclick="ShowHoldingsTable">Holdings</button>
+    <button class="btn button-nav">Dividends</button>
+    <button class="btn button-nav">Perfomance</button>
+    <button class="btn button-nav">Forecast</button>
+    <button class="btn button-nav">Earnings</button>
+    <button class="btn button-nav">Fundamentals</button>
+    <button class="btn button-nav">Forecasts</button>
+    <button class="btn button-nav">Earnings</button>
+</div>
+<br />
 
 @switch (panelIndex)
 {
@@ -19,10 +30,6 @@
         }
 }
 
-@panelIndex
-
-<button class="btn btn-primary" @onclick="@NextTableIndex">Click me</button>
-
 @code {
 
     public static int panelIndex { get; set; }
@@ -35,9 +42,10 @@
         if (index >= tableCount || index < 0) index = 0;
         panelIndex = index;
     }
-    public void NextTableIndex() { 
+    public void ShowNextTable() { 
         ShowPanel(PanelIndex + 1);
-        
     }
+    public static void ShowGeneralTable() => ShowPanel(0);
+    public static void ShowHoldingsTable() => ShowPanel(1);
 }
 

@@ -1,11 +1,24 @@
 ﻿@inject IDataProvider dataService;
 
+@if (holdings == null)
+{
+    <div class="loading">Loading Holdings table...</div>
+} 
+else 
+{
 <table>
     <thead>
         <tr>
             <th class="symbol">Symbol</th>
             <th>Price</th>
             <th>Chg %</th>
+            <th>Shares Owned</th>
+            <th>Avg. Price</th>
+                <th>Market Value</th>
+                <th>Profit / Loss</th>
+                <th>Total P&L %</th
+                <th>Today P&L</th>
+                <th>% Of Portfolio</th>
         </tr>
     </thead>
     <tbody>
@@ -17,11 +30,19 @@
                     <td class="symbol"><input type="checkbox" class="largerCheckbox"> <a href="/#">@holding.Symbol</a></td>
                     <td class="bold">@holding.Price</td>
                     <td class="@holding.Chg.GetClassAnalogName()">@holding.Chg</td>
+                    <td><ButtonWithImage/></td>
+                    <td><ButtonWithImage/></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             }
         }
     </tbody>
 </table>
+}
 
 @code {
     private List<Holding> holdings;

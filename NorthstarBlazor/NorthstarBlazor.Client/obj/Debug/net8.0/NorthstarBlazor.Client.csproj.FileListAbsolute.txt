@@ -1080,3 +1080,6 @@ D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\NorthstarBlazor.Client.pdb
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\ref\NorthstarBlazor.Client.dll
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\HoldingsTable.razor.rz.scp.css
+D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\NorthstarBlazor.Client.sourcelink.json
+D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Pages\Portfolio.razor.rz.scp.css
+D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\ButtonWithImage.razor.rz.scp.css

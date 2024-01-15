@@ -1,8 +1,19 @@
+/* /Elements/ButtonWithImage.razor.rz.scp.css */
+image[b-x0jkv9uw5p] {
+    width: 10px;
+    height: 10px;
+}
 /* /Elements/GeneralTable.razor.rz.scp.css */
 *[b-n2v3i9txno], *[b-n2v3i9txno]:before, *[b-n2v3i9txno]:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+div.loading[b-n2v3i9txno] {
+    display: block;
+    text-align: left;
+    font-weight: 600;
 }
 
 body[b-n2v3i9txno] {
@@ -93,6 +104,12 @@ input.largerCheckbox[b-n2v3i9txno] {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+div.loading[b-4lfsrfqy1f] {
+    display: block;
+    text-align: left;
+    font-weight: 600;
 }
 
 body[b-4lfsrfqy1f] {
@@ -380,4 +397,35 @@ main[b-y1xdj7e8ff] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+}
+/* /Pages/Portfolio.razor.rz.scp.css */
+
+.button-nav[b-7ote2ni0sg] {
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid #2f4970;
+    border-radius: 0px 0px 0px 0px;
+}
+.button-nav.first[b-7ote2ni0sg] {
+    border-radius: 10px 0px 0px 0px;
+}
+.button-nav.last[b-7ote2ni0sg] {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.div-sticky[b-7ote2ni0sg] {
+    display: flex;
+}
+
+.parent > div[b-7ote2ni0sg] {
+    display: inline-block;
+}
+
+.btn:focus[b-7ote2ni0sg], .btn:active:focus[b-7ote2ni0sg], .btn-link.nav-link:focus[b-7ote2ni0sg], .form-control:focus[b-7ote2ni0sg], .form-check-input:focus[b-7ote2ni0sg] {
+    box-shadow: 0 0 0 0;
+}
+
+.button-nav:hover[b-7ote2ni0sg] {
+    background-color: #e7e7e7;
+    font-weight: 600;
 }

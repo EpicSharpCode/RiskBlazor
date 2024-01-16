@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NorthstarBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a16de1a065265454e40d0b7249447bdd41d67dec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3991724ade1b930c56d43e322e135741ca9e3e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("NorthstarBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NorthstarBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

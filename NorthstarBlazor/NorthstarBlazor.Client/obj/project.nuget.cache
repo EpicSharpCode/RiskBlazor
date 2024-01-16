@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OpQVPEHEfWjrBJcf8cQfBVtbbDF0NvbYJiIxXo0kp8Yi32uy/P/Ohrxeg0RmGk8+mZBbVxUGVJH5duz0GpSkJQ==",
+  "dgSpecHash": "JdU6xhD8HjrDiBCSNbahciZnCmP1ziMIni2D3+dcvF9N3P1FxvLoPVEzk9fRENUDSVXwMMxe44GQzsEWURQQ6Q==",
   "success": true,
   "projectFilePath": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor.Client\\NorthstarBlazor.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Epic\\.nuget\\packages\\blazored.typeahead\\4.7.0\\blazored.typeahead.4.7.0.nupkg.sha512",
     "C:\\Users\\Epic\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.1\\microsoft.aspnetcore.authorization.8.0.1.nupkg.sha512",
     "C:\\Users\\Epic\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.1\\microsoft.aspnetcore.components.8.0.1.nupkg.sha512",
     "C:\\Users\\Epic\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.1\\microsoft.aspnetcore.components.analyzers.8.0.1.nupkg.sha512",

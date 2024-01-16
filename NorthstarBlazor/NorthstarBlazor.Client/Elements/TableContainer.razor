@@ -1,4 +1,12 @@
 ﻿
+<h1>Portfolio</h1>
+
+<div>
+    <InputDropdown Collection="@watchlistSelections" />
+    <Dropdown DefaultValue="My Watchlist" SelectionList=@watchlistSelections/>
+    <Dropdown DefaultValue="Options" SelectionList=@optionsSelections AdditionStyle="float: right;" />
+</div>
+
 <div class="div-sticky">
     <button class="btn button-nav first" @onclick="ShowGeneralTable">General</button>
     <button class="btn button-nav" @onclick="ShowHoldingsTable">Holdings</button>
@@ -12,7 +20,6 @@
     <ButtonWithImage ButtonClass="btn button-nav" ImageURL="images/plus.png" Text=" Add View" />
     <ButtonWithImage ButtonClass="btn button-nav" ImageURL="images/pencil.png" Text=" Edit View" />
 </div>
-<br />
 
 @switch (panelIndex)
 {
@@ -29,7 +36,8 @@
 }
 
 @code {
-
+    public List<string> watchlistSelections = new List<string> { "Watchlist 1", "Watchlist 2", "Watchlist 3" };
+    public List<string> optionsSelections = new List<string> { "Option 1", "Option 2", "Option 3" };
     public static int panelIndex { get; set; }
     const int tableCount = 2;
 

@@ -1,0 +1,16 @@
+﻿
+
+<select class="form-select inline" style="@AdditionStyle">
+    <option selected disabled value="-1">@DefaultValue</option>
+    @foreach(var s in SelectionList)
+    {
+        <option value=@s> @s</option>
+    }
+</select>
+
+@code {
+    [Parameter] public string AdditionStyle { get; set; }
+    [Parameter] public string Class { get; set; }
+    [Parameter] public string DefaultValue { get; set; }
+    [Parameter] public List<string> SelectionList { get; set; }
+}

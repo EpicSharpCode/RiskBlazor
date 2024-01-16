@@ -1,0 +1,7 @@
+﻿.inline {
+    display: inline-block;
+    width: 200px;
+}
+.floatright {
+    float: right;
+}

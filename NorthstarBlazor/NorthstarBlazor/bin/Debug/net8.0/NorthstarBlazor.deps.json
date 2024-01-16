@@ -16,6 +16,18 @@
           "NorthstarBlazor.dll": {}
         }
       },
+      "Blazored.Typeahead/4.7.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.1",
+          "Microsoft.AspNetCore.Components.Web": "8.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Blazored.Typeahead.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/8.0.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "8.0.1",
@@ -276,6 +288,7 @@
       },
       "NorthstarBlazor.Client/1.0.0": {
         "dependencies": {
+          "Blazored.Typeahead": "4.7.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.1",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.FileProviders.Embedded": "8.0.1",
@@ -301,6 +314,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Blazored.Typeahead/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fTN4Bt9rwEE/d33FXFd+h/DBjVtsFJLRf9B8mu0zJWMWG5Mk2tU2il3aK0+laUxNgBNBgEL0jW/831I+oapd6A==",
+      "path": "blazored.typeahead/4.7.0",
+      "hashPath": "blazored.typeahead.4.7.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/8.0.1": {
       "type": "package",

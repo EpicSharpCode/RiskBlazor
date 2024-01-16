@@ -56,3 +56,4 @@ D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor\obj\Debug\net8.0\Nor
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor\obj\Debug\net8.0\NorthstarBlazor.genruntimeconfig.cache
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor\obj\Debug\net8.0\ref\NorthstarBlazor.dll
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor\obj\Debug\net8.0\NorthstarBlazor.sourcelink.json
+D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor\bin\Debug\net8.0\Blazored.Typeahead.dll

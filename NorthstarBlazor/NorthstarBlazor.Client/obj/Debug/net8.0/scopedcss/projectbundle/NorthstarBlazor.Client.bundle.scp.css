@@ -1,8 +1,33 @@
+/* /Elements/ButtonWithImage.razor.rz.scp.css */
+
+.littleup[b-x0jkv9uw5p] {
+    transform: translate(0px, -2px);
+}
+/* /Elements/Dropdown.razor.rz.scp.css */
+.inline[b-53bekbhgq0] {
+    display: inline-block;
+    width: 200px;
+}
+.floatright[b-53bekbhgq0] {
+    float: right;
+}
+/* /Elements/InputDropdown.razor.rz.scp.css */
+.inline[b-vgnv88m2xx] {
+    display: inline-block;
+    width: 200px;
+    resize: none;
+    height: 38px;
+}
+
+.floatright[b-vgnv88m2xx] {
+    float: right;
+}
 /* /Elements/TableContainer.razor.rz.scp.css */
 
 
 div.div-sticky[b-7tja4cgd6p] {
     display: flex;
+    margin: 20px 0px 20px 0px;
 }
 
 .parent > div[b-7tja4cgd6p] {

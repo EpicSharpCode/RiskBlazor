@@ -22,10 +22,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/ButtonWithImage.razor]
-build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcQnV0dG9uV2l0aEltYWdlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/GeneralTable.razor]
 build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcR2VuZXJhbFRhYmxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -57,6 +53,18 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/ButtonWithImage.razor]
+build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcQnV0dG9uV2l0aEltYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-x0jkv9uw5p
+
+[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/Dropdown.razor]
+build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcRHJvcGRvd24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-53bekbhgq0
+
+[D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/InputDropdown.razor]
+build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcSW5wdXREcm9wZG93bi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-vgnv88m2xx
 
 [D:/TestTask/NorthstarBlazor/NorthstarBlazor/NorthstarBlazor.Client/Elements/TableContainer.razor]
 build_metadata.AdditionalFiles.TargetPath = RWxlbWVudHNcVGFibGVDb250YWluZXIucmF6b3I=

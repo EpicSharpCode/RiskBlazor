@@ -32,4 +32,5 @@ public class General
 
     [JsonProperty("% Chg 52w High")]
     public string Chg52wHigh { get; set; }
+
 }

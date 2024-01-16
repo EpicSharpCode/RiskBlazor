@@ -27,5 +27,11 @@ namespace NorthstarBlazor.Controllers
         {
             return _dataProvider.GetHolding();
         }
+
+        [HttpGet("sharedata"), AllowAnonymous]
+        public Task<List<ShareData>> GetShareData()
+        {
+            return _dataProvider.GetShareData();
+        }
     }
 }

@@ -6,5 +6,6 @@ namespace Shares.Services
     {
         Task<List<General>> GetGeneral();
         Task<List<Holding>> GetHolding();
+        Task<List<ShareData>> GetShareData();
     }
 }

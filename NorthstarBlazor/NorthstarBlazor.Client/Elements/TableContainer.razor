@@ -40,8 +40,9 @@
 
 @code {
     public List<string> watchlistSelections = new List<string> { "Watchlist 1", "Watchlist 2", "Watchlist 3" };
-    public List<string> searchSelections;
+    public List<ShareData> searchSelections;
     public List<string> optionsSelections = new List<string> { "Option 1", "Option 2", "Option 3" };
+
     public static int panelIndex { get; set; }
     const int tableCount = 2;
 
@@ -59,14 +60,10 @@
     public static void ShowGeneralTable() => ShowPanel(0);
     public static void ShowHoldingsTable() => ShowPanel(1);
 
-    private List<General> generals;
+
+
     protected async override Task OnInitializedAsync()
     {
-        if (generals == null)
-        {
-            generals = await dataService.GetGeneral();
-            searchSelections = new List<string>();
-            generals.ForEach(x => searchSelections.Add(x.Symbol));
-        }
+        searchSelections = await dataService.GetShareData();
     }
 }

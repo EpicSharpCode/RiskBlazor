@@ -1,19 +1,22 @@
 ﻿
-<Blazored.Typeahead.BlazoredTypeahead Class="form-select inline" Style="@AdditionStyle" SearchMethod="SearchForStrings" @bind-Value="@selectedString" placeholder="Search by name...">
-    <SelectedTemplate>@context</SelectedTemplate>
-    <ResultTemplate>@context - @context</ResultTemplate>
+<Blazored.Typeahead.BlazoredTypeahead Class="form-select inline" Style="@AdditionStyle"
+                                      SearchMethod="SearchForStrings"
+@bind-Value="@selectedString" 
+placeholder="Search by name...">
+    <SelectedTemplate>@context.Symbol</SelectedTemplate>
+    <ResultTemplate>@context.Symbol - @context.Name</ResultTemplate>
 </Blazored.Typeahead.BlazoredTypeahead>
 
 @code {
     [Parameter] public string AdditionStyle { get; set; }
     [Parameter] public string Class { get; set; }
-    [Parameter] public List<string> Collection { get; set; }
+    [Parameter] public List<ShareData> Collection { get; set; }
 
-    string selectedString;
+    ShareData selectedString;
 
 
-    private async Task<IEnumerable<string>> SearchForStrings(string searchText)
+    private async Task<IEnumerable<ShareData>> SearchForStrings(string searchText)
     {
-        return await Task.FromResult(Collection.Where(x=>x.ToLower().Contains(searchText)));
+        return await Task.FromResult(Collection.Where(x => x.Name.ToLower().Contains(searchText) || x.Symbol.ToLower().Contains(searchText)));
     }
 }

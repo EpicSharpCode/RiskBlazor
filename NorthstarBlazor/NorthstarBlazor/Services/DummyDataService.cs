@@ -17,6 +17,28 @@ namespace NorthstarBlazor.Services
         }
         public async Task<List<General>> GetGeneral() => await GetData<General>("NorthstarBlazor.Services.General.json");
         public async Task<List<Holding>> GetHolding() => await GetData<Holding>("NorthstarBlazor.Services.Holding.json");
+
+        public async Task<List<ShareData>> GetShareData()
+        {
+            List<Holding> holdings = await GetHolding();
+            List<General> generals = await GetGeneral();
+            List<ShareData> data = new List<ShareData>();
+
+            foreach (var holding in holdings)
+            {
+                if (data.Find(x => x.Symbol == holding.Symbol) != null || data.Find(x => x.Name == holding.Symbol) != null) continue;
+                var sharedata = new ShareData() { Symbol = holding.Symbol, Name = holding.Symbol };
+                data.Add(sharedata);
+            }
+            foreach (var general in generals)
+            {
+                if (data.Find(x => x.Symbol == general.Symbol) != null || data.Find(x => x.Name == general.Symbol) != null) continue;
+                var sharedata = new ShareData() { Symbol = general.Symbol, Name = general.Symbol };
+                data.Add(sharedata);
+            }
+
+            return data;
+        }
         private async Task<List<T>> GetData<T>(string resourceName)
         {
             _logger.LogInformation("Reading Embedded File {resourceName}", resourceName);

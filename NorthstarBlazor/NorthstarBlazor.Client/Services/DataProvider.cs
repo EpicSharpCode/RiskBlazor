@@ -30,6 +30,14 @@ namespace NorthstarBlazor.Client.Services
 
             return response;
         }
-   
+
+        public async Task<List<ShareData>> GetShareData()
+        {
+            var http = _httpClientFactory.CreateClient("api");
+            var result = await http.GetAsync("api/data/sharedata");
+            var response = await result.Content.ReadFromJsonAsync<List<ShareData>>();
+
+            return response;
+        }
     }
 }

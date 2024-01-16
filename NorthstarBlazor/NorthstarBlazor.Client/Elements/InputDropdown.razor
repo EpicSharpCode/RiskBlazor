@@ -1,15 +1,15 @@
 ﻿
 <Blazored.Typeahead.BlazoredTypeahead Class="form-select inline" Style="@AdditionStyle" SearchMethod="SearchForStrings" @bind-Value="@selectedString" placeholder="Search by name...">
     <SelectedTemplate>@context</SelectedTemplate>
-    <ResultTemplate>@context</ResultTemplate>
+    <ResultTemplate>@context - @context</ResultTemplate>
 </Blazored.Typeahead.BlazoredTypeahead>
 
 @code {
-        [Parameter] public string AdditionStyle { get; set; }
-        [Parameter] public string Class { get; set; }
-        [Parameter] public List<string> Collection { get; set; }
+    [Parameter] public string AdditionStyle { get; set; }
+    [Parameter] public string Class { get; set; }
+    [Parameter] public List<string> Collection { get; set; }
 
-        string selectedString;
+    string selectedString;
 
 
     private async Task<IEnumerable<string>> SearchForStrings(string searchText)

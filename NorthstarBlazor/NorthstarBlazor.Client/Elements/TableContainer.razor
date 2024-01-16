@@ -4,7 +4,7 @@
     <div class="p-2 bd-highlight">
         <Dropdown DefaultValue="My Watchlist" SelectionList=@watchlistSelections Class="form-select padding" />
     </div>
-    <div class="p-2 bd-highlight"><InputDropdown Collection="@watchlistSelections" /></div>
+    <div class="p-2 bd-highlight"><InputDropdown Collection="@searchSelections" /></div>
     <div class="ms-auto p-2 bd-highlight">
         <Dropdown DefaultValue="Options" SelectionList=@optionsSelections Class="form-select padding" />
     </div>
@@ -40,6 +40,7 @@
 
 @code {
     public List<string> watchlistSelections = new List<string> { "Watchlist 1", "Watchlist 2", "Watchlist 3" };
+    public List<string> searchSelections;
     public List<string> optionsSelections = new List<string> { "Option 1", "Option 2", "Option 3" };
     public static int panelIndex { get; set; }
     const int tableCount = 2;
@@ -57,4 +58,15 @@
     }
     public static void ShowGeneralTable() => ShowPanel(0);
     public static void ShowHoldingsTable() => ShowPanel(1);
+
+    private List<General> generals;
+    protected async override Task OnInitializedAsync()
+    {
+        if (generals == null)
+        {
+            generals = await dataService.GetGeneral();
+            searchSelections = new List<string>();
+            generals.ForEach(x => searchSelections.Add(x.Symbol));
+        }
+    }
 }

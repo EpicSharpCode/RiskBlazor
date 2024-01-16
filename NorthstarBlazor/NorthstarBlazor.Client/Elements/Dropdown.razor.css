@@ -1,7 +1,6 @@
-﻿.inline {
-    display: inline-block;
-    width: 200px;
-}
-.floatright {
-    float: right;
+﻿
+
+.padding {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }

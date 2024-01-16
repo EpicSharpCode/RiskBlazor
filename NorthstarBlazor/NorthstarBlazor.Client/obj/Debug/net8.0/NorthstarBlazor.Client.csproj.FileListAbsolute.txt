@@ -1081,10 +1081,10 @@ D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\NorthstarBlazor.Client.sourcelink.json
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\TableContainer.razor.rz.scp.css
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\ButtonWithImage.razor.rz.scp.css
-D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\Dropdown.razor.rz.scp.css
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\InputDropdown.razor.rz.scp.css
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\bin\Debug\net8.0\wwwroot\_framework\Blazored.Typeahead.wasm
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\bin\Debug\net8.0\wwwroot\_framework\Blazored.Typeahead.wasm.gz
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\bin\Debug\net8.0\Blazored.Typeahead.dll
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\webcil\Blazored.Typeahead.wasm
 D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\compressed\z72vi8o6rm.gz
+D:\TestTask\NorthstarBlazor\NorthstarBlazor\NorthstarBlazor.Client\obj\Debug\net8.0\scopedcss\Elements\Dropdown.razor.rz.scp.css

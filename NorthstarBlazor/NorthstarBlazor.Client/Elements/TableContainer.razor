@@ -1,10 +1,13 @@
-﻿
-<h1>Portfolio</h1>
+﻿@inject IDataProvider dataService;
 
-<div>
-    <InputDropdown Collection="@watchlistSelections" />
-    <Dropdown DefaultValue="My Watchlist" SelectionList=@watchlistSelections/>
-    <Dropdown DefaultValue="Options" SelectionList=@optionsSelections AdditionStyle="float: right;" />
+<div class="d-flex align-items-center bd-highlight mb-3">
+    <div class="p-2 bd-highlight">
+        <Dropdown DefaultValue="My Watchlist" SelectionList=@watchlistSelections Class="form-select padding" />
+    </div>
+    <div class="p-2 bd-highlight"><InputDropdown Collection="@watchlistSelections" /></div>
+    <div class="ms-auto p-2 bd-highlight">
+        <Dropdown DefaultValue="Options" SelectionList=@optionsSelections Class="form-select padding" />
+    </div>
 </div>
 
 <div class="div-sticky">

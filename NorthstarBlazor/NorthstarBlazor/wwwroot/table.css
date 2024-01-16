@@ -18,10 +18,11 @@ th {
     text-align: left;
 }
 
-th.symbol {
-    border-right: 1px solid #b7b7b7;
-    width: 130px;
-}
+    th.symbol {
+        border-right: 1px solid #b7b7b7;
+        width: 130px;
+        white-space: nowrap;
+    }
 
 th.last {
     border-right: none;

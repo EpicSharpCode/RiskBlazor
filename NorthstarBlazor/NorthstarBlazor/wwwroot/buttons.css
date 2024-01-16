@@ -16,14 +16,14 @@
     }
 
 
-.button-nav:focus, .button-nav:active:focus {
-    box-shadow: 0 0 0 0;
-}
+    .button-nav:focus, .button-nav:active:focus {
+        box-shadow: 0 0 0 0;
+    }
 
-.button-nav:hover {
-    background-color: #e7e7e7;
-    font-weight: 600;
-}
+    .button-nav:hover {
+        background-color: #e7e7e7;
+        font-weight: 600;
+    }
 
 /*Empty Buttons*/
 .button-empty {
@@ -31,13 +31,13 @@
     color: black;
     border-bottom: 0px;
     border-radius: 10px;
+    white-space: nowrap;
 }
 
-.button-empty:focus, .button-empty:active:focus {
-    box-shadow: 0 0 0 0;
-}
+    .button-empty:focus, .button-empty:active:focus {
+        box-shadow: 0 0 0 0;
+    }
 
-.button-empty:hover {
-    background-color: #d8e8ff;
-}
-
+    .button-empty:hover {
+        background-color: #d8e8ff;
+    }

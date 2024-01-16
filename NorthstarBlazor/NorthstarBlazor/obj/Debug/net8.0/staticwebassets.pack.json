@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\images\\plus.png"
     },
     {
+      "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\images\\question.png",
+      "PackagePath": "staticwebassets\\images\\question.png"
+    },
+    {
       "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\images\\sidebar-background.png",
       "PackagePath": "staticwebassets\\images\\sidebar-background.png"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SxFxzRiOIJ3bo07+vz0YpYRHFBmfiXJcmuaYQ8/pAEg=",
+  "Hash": "aRDtHQQUo4j2b4TBHUe8yentFemV0E8J8SxeV9mto9o=",
   "Source": "NorthstarBlazor",
   "BasePath": "_content/NorthstarBlazor",
   "Mode": "Default",
@@ -8470,6 +8470,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\plus.png"
+    },
+    {
+      "Identity": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\images\\question.png",
+      "SourceId": "NorthstarBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\",
+      "BasePath": "_content/NorthstarBlazor",
+      "RelativePath": "images/question.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\question.png"
     },
     {
       "Identity": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\images\\sidebar-background.png",

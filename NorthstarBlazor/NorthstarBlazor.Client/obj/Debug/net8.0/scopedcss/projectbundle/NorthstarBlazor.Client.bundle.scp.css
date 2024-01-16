@@ -4,12 +4,11 @@
     transform: translate(0px, -2px);
 }
 /* /Elements/Dropdown.razor.rz.scp.css */
-.inline[b-53bekbhgq0] {
-    display: inline-block;
-    width: 200px;
-}
-.floatright[b-53bekbhgq0] {
-    float: right;
+
+
+.padding[b-53bekbhgq0] {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 /* /Elements/InputDropdown.razor.rz.scp.css */
 .inline[b-vgnv88m2xx] {

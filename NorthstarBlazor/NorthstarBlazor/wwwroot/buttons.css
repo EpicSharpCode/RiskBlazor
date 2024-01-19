@@ -41,3 +41,21 @@
     .button-empty:hover {
         background-color: #d8e8ff;
     }
+
+.button-solid {
+    background-color: white;
+    color: black;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    white-space: nowrap;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+
+    .button-solid:focus, .button-solid:active:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .button-solid:hover {
+        background-color: #eeeeee;
+    }

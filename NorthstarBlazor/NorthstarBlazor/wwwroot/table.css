@@ -10,23 +10,25 @@ table {
 th {
     border-bottom: 1px solid #b7b7b7;
     border-right: 2px dashed #d2d2d2;
+    border-radius: 0px 0px 0px 0px;
     background: #efefef;
-    border-radius: 10px 10px 0px 0px;
     color: #364043;
     font-weight: 600;
     padding: 1em 0.5em;
     text-align: left;
 }
 
-    th.symbol {
+    .th.symbol {
         border-right: 1px solid #b7b7b7;
+        border-radius: 10px 0px 0px 0px;
         width: 130px;
         white-space: nowrap;
     }
 
-th.last {
-    border-right: none;
-}
+    .th.last {
+        border-right: none;
+        border-radius: 0px 10px 0px 0px;
+    }
 
 a {
     text-decoration: none;

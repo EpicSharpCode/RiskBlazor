@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\images\\bin.png",
+      "PackagePath": "staticwebassets\\images\\bin.png"
+    },
+    {
       "Id": "D:\\TestTask\\NorthstarBlazor\\NorthstarBlazor\\NorthstarBlazor\\wwwroot\\images\\northstar.png",
       "PackagePath": "staticwebassets\\images\\northstar.png"
     },

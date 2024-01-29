@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RiskBlazor.Client.props" />
+</Project>

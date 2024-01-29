@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\buttons.css",
+      "PackagePath": "staticwebassets\\buttons.css"
+    },
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\images\\bin.png",
+      "PackagePath": "staticwebassets\\images\\bin.png"
+    },
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\images\\pencil.png",
+      "PackagePath": "staticwebassets\\images\\pencil.png"
+    },
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\images\\plus.png",
+      "PackagePath": "staticwebassets\\images\\plus.png"
+    },
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\images\\question.png",
+      "PackagePath": "staticwebassets\\images\\question.png"
+    },
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\images\\sidebar-background.png",
+      "PackagePath": "staticwebassets\\images\\sidebar-background.png"
+    },
+    {
+      "Id": "D:\\TestTask\\RiskBlazor\\RiskBlazor\\RiskBlazor\\wwwroot\\table.css",
+      "PackagePath": "staticwebassets\\table.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RiskBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RiskBlazor.props",
+      "PackagePath": "build\\RiskBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RiskBlazor.props",
+      "PackagePath": "buildMultiTargeting\\RiskBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RiskBlazor.props",
+      "PackagePath": "buildTransitive\\RiskBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

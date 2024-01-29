@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Services\General.json" />
+    <Content Remove="Services\Holding.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Services\General.json" />
+    <EmbeddedResource Include="Services\Holding.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RiskBlazor.Client\RiskBlazor.Client.csproj" />
+    <ProjectReference Include="..\Shares\Shares.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>
